@@ -1,0 +1,24 @@
+:host{
+    position: fixed;
+    left:0;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list-group-item{
+    width: 75px;
+    margin-bottom: 3px;
+    border-left: none;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    color:white;
+    font-size: 16px;
+    background-color: #286592 !important;
+}
+.temp{
+    font-weight: bold;
+}
+.day{
+    font-style: italic;
+}

@@ -1,0 +1,8 @@
+<ul class="list-group-flush ">
+    <a class="list-group-item list-group-item-action" *ngFor="let article of articles" [href]="article.url"
+        target="_blank">
+        {{article.title}}
+    </a>
+</ul>
+<pagination [totalItems]="noPages" (pageChanged)="pageChanged($event)" previousText="Prev" [rotate]="true" [maxSize]="5"
+    [boundaryLinks]="true"></pagination>

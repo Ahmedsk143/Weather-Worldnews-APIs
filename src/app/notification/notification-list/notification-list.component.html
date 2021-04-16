@@ -1,0 +1,7 @@
+<ul *ngFor="let message of messages" class="list-unstyled">
+    <li class="alert" [ngClass]="{'alert-danger':message.type ==='error', 'alert-success':message.type ==='success'}">
+        {{message.message}}
+        <button class="close" (click)="dismiss(message.id)"> x</button>
+    </li>
+
+</ul>

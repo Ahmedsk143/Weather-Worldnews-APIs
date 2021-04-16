@@ -1,0 +1,9 @@
+<ul class="list-group d-flex flex-colunm ">
+    <li class="list-group-item " *ngFor="let day of forecast">
+        <div class="temp">
+            {{day.temp | number:'1.0-0'}}°c
+        </div>
+        <i class="material-icons ">cloud</i>
+        <div class="day">{{day.dataText | date:'EEE'}}</div>
+    </li>
+</ul>

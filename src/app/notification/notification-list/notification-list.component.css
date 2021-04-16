@@ -1,0 +1,12 @@
+:host{
+    display: block;
+    width: 300px;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    z-index: 100;
+}
+.close{
+    margin-top: -11px;
+    margin-right: -11px;
+}
